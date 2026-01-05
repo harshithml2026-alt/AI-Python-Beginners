@@ -93,3 +93,32 @@ for i in range(3):
 # Hi
 # Hi
 
+####################################################################################
+
+
+def greet():
+    print("Hello World")
+    print("This is a function")
+
+greet()
+
+####################################################################################
+
+def greet_with_input(name):
+    print(f"Hello {name}")
+    print("This is a function with a parameter")
+
+greet_with_input("Harshith")
+
+####################################################################################
+
+
+def greet_with_default(name="Guest"):
+    print(f"Hello {name}")
+    print("This is a function with a default parameter")    
+
+greet_with_default()  # Uses default parameter
+greet_with_default("Harshith")  # Overrides default parameter
+
+####################################################################################
+
